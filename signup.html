@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container mx-auto px-4 py-8"> 
+        <h2 class="text-2xl font-semibold my-5">Create an account</h2>
+        <div class="mt-11 flex flex-col space-y-4">
+          <input type="text" id="firstName" class=" bg-gray-100 rounded-md border border-gray-300 px-3 py-2 w-full focus:ring-indigo-500 focus:border-indigo-500 " placeholder="First Name">
+          <input type="text" id="lastName" class="  bg-gray-100 rounded-md border border-gray-300 px-3 py-2 w-full focus:ring-indigo-500 focus:border-indigo-500" placeholder="Last Name">
+          <input type="email" id="email" class=" bg-gray-100 rounded-md border border-gray-300 px-3 py-2 w-full focus:ring-indigo-500 focus:border-indigo-500" placeholder="Email">
+          <input type="password" id="password" class=" bg-gray-100 rounded-md border border-gray-300 px-3 py-2 w-full focus:ring-indigo-500 focus:border-indigo-500" placeholder="Password">
+          <div class="">
+            <div class="">
+              <input id="terms" type="checkbox" class="rounded-md border-gray-300 h-4 w-4 focus:ring-indigo-500 focus:border-indigo-500">
+              <label for="terms" class="ml-2 text-sm font-light">By proceeding, I agree to all <a href="http://" class="text-blue-400 underline">T&C</a> and <a href="http://" class="text-blue-400 underline">Privacy Policy</a></label>
+            </div>
+            <button type="submit" class="mt-[110px] w-[100%] px-4 py-2 bg-gradient-to-r from-purple-300 to-blue-400 text-white rounded-md hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              Create an Account
+            </button>
+          </div>
+        </div>
+        <div class="flex justify-center mt-6">
+        <div class="text-center text-sm text-gray-500">
+            Or
+        </div>
+        </div>
+        <div class="mt-7 flex space-x-4 justify-center">
+            <a href="#">
+                <img src="./images/google.png" class="w-[50px] border-2 p-3 rounded-md" />
+            </a>
+            <a href="#">
+                <img src="./images/facebook.png" class="w-[50px] border-2 p-3 rounded-md" />
+            </a>
+        </div>
+        </div>
+        <div class="text-sm text-center mt-3">
+          Already have an account?
+          <a href="./signin.html" class="text-indigo-500 font-medium underline hover:text-indigo-700">
+            Login
+          </a>
+        </div>
+      </div>
+</body>
+</html>
